@@ -101,7 +101,7 @@ if planilha:
         df = pd.read_excel(planilha)
 
         # Cria uma coluna com o IMC para cada paciente
-        df['IMC'] = df['Peso (kg)'] / (df['Altura (cm)'] ** 2)
+        df['IMC'] = df['Peso (kg)'] / (df['Altura (m)'] ** 2)
 
         df['Situação'] = df['IMC'].apply(informar_situacao)
 
