@@ -4,10 +4,23 @@ Este projeto é uma calcudadora de IMC (Índice de Massa Corpórea) interativa n
 
 Esta aplicação também permite que o usuário carregue um arquivo do Excel com os dados diversos pacientes — nome, peso (kg) e altura (m) — para calcular o IMC e informar a situação de cada um deles. Além disso, o usuário pode baixar um arquivo CSV com os dados calculados.
 
-## Link da Aplicação
+## Demo
 
 Acesse a aplicação neste link: 
 [Calculadora de IMC](https://diego-torres-coder-calculadora-imc-calculadora-imc-4zf5io.streamlit.app/)
+
+### Calculadora de IMC Simples
+
+Esta é uma captura de tela da seção para calcular o IMC de um único usuário:
+
+![Captura de Tela Calculo de IMC Simples](/calculadora-imc-simples.png "Calculadora de IMC Simples")
+
+
+### Calculadora de IMC para Diversos Usuários
+
+Esta é uma captura de tela da seção para calcular o IMC de diversos usuários:
+
+![Captura de Tela para Calculo de IMC de Diversos Usuários](/calculadora-imc-completa.png "Calculadora de IMC Completa")
 
 
 ## Como Reproduzir este Projeto
